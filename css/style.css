@@ -43,10 +43,6 @@ table {
   border-spacing: 0;
 }
 
-#background-color {
-  background-color: blue;
-}
-
 /*** code below is fixed old code ***/
 
 body {
@@ -62,7 +58,7 @@ nav {
 }
 
 section {
-  margin: 0, auto;
+  margin: 0 auto;
   width: 60%;
 }
 
@@ -87,5 +83,10 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin: 10px, 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+.background-color {
+  background-color: blue;
+}
